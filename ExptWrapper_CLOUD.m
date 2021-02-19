@@ -2,7 +2,7 @@
 % Author: ACM
 % Date: 1/10/20
 % STEP ONE: Edit the config file in the rtAttenPenn_cloud path - same config file for everything
-toml_file = '/home/amennen/rtAttenPenn_cloud/PennCfg.toml';
+toml_file = '/Users/amennen/github/rtAttenPenn_cloud/PennCfg.toml';
 % make sure the variables are correct:
 % get subjectnumber and day here first!! 
 [subjectNum,subjectDay,typeNum,useButtonBox,rtData,debugMode,usePyOutput] = readTomlFile(toml_file);
@@ -14,7 +14,7 @@ fprintf('Stimulus type\t\t%i\n', typeNum);
 fprintf('****************************************\n')
 fprintf('useButtonBox:\t\t%i\n', useButtonBox);
 fprintf('****************************************\n')
-fprintf('rtData:\t\t%i\n', rtData);
+fprintf('rtData:\t\t\t%i\n', rtData);
 fprintf('****************************************\n')
 fprintf('debugMode:\t\t%i\n', debugMode);
 fprintf('****************************************\n')
