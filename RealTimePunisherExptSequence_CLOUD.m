@@ -169,21 +169,21 @@ for categ=1:nSubCategs
     
     % move into the right folder
     if (categ == INDOOR)
-        cd indoor;
+        cd indoor_NEW;
     elseif (categ == OUTDOOR)
-        cd outdoor;
+        cd outdoor_NEW;
     elseif (categ == MALE)
-        cd male_neut;
+        cd male_neut_NEW;
     elseif (categ == FEMALE)
-        cd female_neut;
+        cd female_neut_NEW;
     elseif (categ == MALESAD)
-        cd male_sad;
+        cd male_sad_NEW;
     elseif (categ == FEMALESAD)
-        cd female_sad;
+        cd female_sad_NEW;
     elseif (categ == MALEHAPPY)
-        cd male_happy;
+        cd male_happy_NEW;
     elseif (categ == FEMALEHAPPY)
-        cd female_happy
+        cd female_happy_NEW
     else
         error('Impossible category!');
     end
